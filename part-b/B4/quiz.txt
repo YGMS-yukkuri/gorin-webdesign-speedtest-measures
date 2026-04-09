@@ -1,0 +1,39 @@
+Q1
+問題文: HTMLで最も大きい見出しを表す要素はどれですか。
+A: <heading>
+B: <h1>
+C: <head>
+D: <title>
+正解: B
+
+Q2
+問題文: CSSで文字色を指定するプロパティはどれですか。
+A: font-color
+B: text-color
+C: color
+D: foreground
+正解: C
+
+Q3
+問題文: JavaScriptで配列の末尾に要素を追加するメソッドはどれですか。
+A: add()
+B: append()
+C: push()
+D: insert()
+正解: C
+
+Q4
+問題文: PHPで連想配列をJSON文字列に変換する関数はどれですか。
+A: json_parse()
+B: json_decode()
+C: array_to_json()
+D: json_encode()
+正解: D
+
+Q5
+問題文: Webページで外部CSSファイルを読み込む要素はどれですか。
+A: <script>
+B: <style>
+C: <link>
+D: <meta>
+正解: C

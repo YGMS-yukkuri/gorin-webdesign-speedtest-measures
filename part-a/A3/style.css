@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.accordion-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+.accordion {
+  display: grid;
+  gap: 12px;
+}
+
+.item {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.item-title {
+  display: block;
+  padding: 16px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #eee;
+}
+
+.item-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  transition: 0.3s;
+}
+
+/* この下に必要なスタイルを追記すること */
