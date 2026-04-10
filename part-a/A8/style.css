@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.submenu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all 0.4s;
+    border: 1px solid #000;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.title {
+    cursor: default;
+    width: 300px;
+    position: relative;
+}
+
+.title:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
