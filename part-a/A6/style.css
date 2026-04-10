@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+    "h h h "
+    "s m m "
+    "f f f ";
+    grid-template-columns: 200px auto auto;
+    grid-template-rows: 100px auto auto;
+}
+
+.grid > .head {
+    grid-area: h;
+    background-color: #aaa;
+}
+
+.grid > .main {
+    grid-area: m;
+    background-color: #fff;
+}
+
+.grid > .side {
+    grid-area: s;
+    background-color: #111;
+    color: #fff;
+}
+
+.grid > .foot {
+    grid-area: f;
+    background-color: green;
+}
+
+.image {
+    max-width: 400px;
+    height: 200px;
+    background-image: linear-gradient(red,blue);
+}
+
+@media (width < 800px) {
+    .grid {
+        grid-template-areas: 
+        "h"
+        "s"
+        "m"
+        "f";
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px repeat(3,auto);
+    };
+}
