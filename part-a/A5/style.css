@@ -1,0 +1,51 @@
+.body {
+    counter-reset: num1;
+}
+
+a {
+    display: block;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list a {
+    counter-increment: num1;
+}
+
+.list a::before {
+    display: inline-block;
+    content: counter(num1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #114514;
+    text-decoration: none;
+    color: #fff;
+}
+
+.list-nest {
+    counter-reset: num2;
+    position: relative;
+    top: 0;
+    left: 50px;
+}
+
+.list-nest a {
+    counter-increment: num2;
+}
+
+.list-nest a::before {
+    display: inline-block;
+    content: counter(num1) "-" counter(num2);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #664842;
+    text-decoration: none;
+    color: #fff;
+}
