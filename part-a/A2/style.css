@@ -44,3 +44,26 @@ body {
 }
 
 /* この下に必要なスタイルを追記すること */
+#tab-overview:checked ~ .tab-panels .panel-overview {
+  display: block;
+}
+
+#tab-price:checked ~ .tab-panels .panel-price {
+  display: block;
+}
+
+#tab-review:checked ~ .tab-panels .panel-review {
+  display: block;
+}
+
+#tab-overview:checked ~ .tab-labels label:nth-child(1) {
+  background-color: #aaa;
+}
+
+#tab-price:checked ~ .tab-labels label:nth-child(2) {
+  background-color: #aaa;
+}
+
+#tab-review:checked ~ .tab-labels label:nth-child(3) {
+  background-color: #aaa;
+}
