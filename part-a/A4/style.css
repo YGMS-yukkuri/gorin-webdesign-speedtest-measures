@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+}
+
+.card {
+    width: 100px;
+    height: 300px;
+
+    border: 1px solid #000;
+    background-color: #ddd;
+    color: #000;
+}
+
+.card.dark {
+    display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+    }
+
+    .card {
+        display: none;
+    }
+
+    .card.dark {
+        display: block;
+        width: 100px;
+        height: 300px;
+        border: 1px solid #fff;
+        background-color: #333;
+        color: #fff;
+    }
+}
