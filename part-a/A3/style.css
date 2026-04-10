@@ -49,3 +49,14 @@ body {
 }
 
 /* この下に必要なスタイルを追記すること */
+#acc1:checked ~ .item-content {
+  max-height: 100px;
+}
+
+#acc2:checked ~ .item-content {
+  max-height: 100px;
+}
+
+#acc3:checked ~ .item-content {
+  max-height: 100px;
+}
