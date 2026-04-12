@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.modal:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+.overray {
+    display: none;
+}
+
+.overray:target {
+    background-color: #fff;
+    width: 60%;
+    height: 80%;
+}
+
+.open {
+    background-color: #aaa;
+    border: 1px solid #000;
+    text-decoration: none;
+}
+
+.close {
+    background-color: #aaa;
+    border: 1px solid #000;
+    text-decoration: none;
+}
