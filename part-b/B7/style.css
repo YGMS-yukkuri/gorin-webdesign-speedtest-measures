@@ -1,0 +1,17 @@
+.drag {
+    width: 500px;
+    height: 700px;
+    border: 1px solid #000
+}
+
+.draginner {
+    box-sizing: border-box;
+    width: 94%;
+    height: 16%;
+    border: 2px solid #000;
+    margin: 4%;
+}
+
+.dragging {
+    opacity: 0.4;
+}
