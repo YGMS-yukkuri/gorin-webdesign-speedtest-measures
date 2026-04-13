@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.card {
+    width: 60%;
+    height: 500px;
+    background-color: #4c4ca0;
+    border: 1px solid #000;
+    opacity: 0;
+    transform: translateX(40vw);
+    transition: all 0.5s ease-in;
+}
+
+.card.looked {
+    opacity: 1;
+    transform: none;
+}
