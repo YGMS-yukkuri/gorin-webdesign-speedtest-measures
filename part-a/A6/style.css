@@ -37,7 +37,7 @@
     background-image: linear-gradient(red,blue);
 }
 
-@media (width < 800px) {
+@media screen and (width < 800px) {
     .grid {
         grid-template-areas: 
         "h"
