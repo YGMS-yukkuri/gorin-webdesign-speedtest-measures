@@ -1,0 +1,7 @@
+.checker {
+    background-color: orange;
+}
+
+.checker.ok {
+    background-color: rgb(44, 173, 44);
+}
