@@ -1,0 +1,27 @@
+textarea {
+    width: 30%;
+    height: 80%;
+    overflow: auto;
+    max-width: 30%;
+    max-height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#high {
+    display: block;
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-overflow: ellipsis;
+    background: transparent;
+}
+
+p {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
