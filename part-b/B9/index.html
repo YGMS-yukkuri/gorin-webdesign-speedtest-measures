@@ -9,7 +9,30 @@
 <body>
   <div>
     <h2>HTML</h2>
+    <pre id="html"><code>
+      &lt;h1&gt;title&lt;/h1&gt;
+    </code></pre>
+    <button onclick="copy(`html`)">コピー</button>
   </div>
+
+  <div>
+    <h2>CSS</h2>
+    <pre id="css"><code>
+      body {
+        display: block;
+      }
+    </code></pre>
+    <button onclick="copy(`css`)">コピー</button>
+  </div>
+  
+  <div>
+    <h2>JavaScipt</h2>
+    <pre id="js"><code>
+      const main = document.getElementById("main")
+    </code></pre>
+    <button onclick="copy(`js`)">コピー</button>
+  </div>
+  
   <script src="script.js"></script>
 </body>
 </html>
