@@ -1,0 +1,12 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 100%;
+    perspective: 5cm;
+    transform: rotateY(0deg);
+}
+.ac {
+    width: 150px;;
+    height: 150px;
+}
