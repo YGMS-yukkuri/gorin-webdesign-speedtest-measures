@@ -1,0 +1,15 @@
+input {
+    display: none;
+}
+
+.chx {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+input:checked + .chx {
+    background-color: orange;
+}
