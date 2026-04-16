@@ -8,8 +8,20 @@ input {
     height: 15px;
     border-radius: 50%;
     border: 2px solid orange;
+    transition: background .3s;
+    content: none;
 }
 
 input:checked + .chx {
     background-color: orange;
+    position: relative;
+}
+
+input:checked + .chx::before {
+    content: "✓";
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-size: 10px;
 }
