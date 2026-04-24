@@ -1,0 +1,45 @@
+.content {
+    border: 1px solid #000;
+    padding: 10px;
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+.form {
+    display: flex;
+    justify-content: start;
+}
+
+label {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+#tab1:checked ~ .content_1 {
+    display: block;
+}
+
+#tab2:checked ~ .content_2 {
+    display: block;
+}
+
+#tab3:checked ~ .content_3 {
+    display: block;
+}
+
+#tab1:checked ~ .form label:nth-child(1) {
+    background-color: #ccc;
+}
+
+#tab2:checked ~ .form label:nth-child(2) {
+    background-color: #ccc;
+}
+
+#tab3:checked ~ .form label:nth-child(3) {
+    background-color: #ccc;
+}
